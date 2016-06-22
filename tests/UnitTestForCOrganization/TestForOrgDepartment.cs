@@ -70,10 +70,10 @@ namespace UnitTestForCOrganization
         {
             try
             {
-                string Name = "软件事业部";
-                string NameShort = "软件";
+                string Name = "系统运营部";
+                string NameShort = "运营";
                 ICDepartmentCommand ic = new COrganization.Business.Aggregate.Aggregate();
-                long newId = ic.addDepartment(1, 0, Name, NameShort);
+                long newId = ic.addDepartment(2, 0, Name, NameShort);
 
                 Console.WriteLine("add COrgDepartment ok! newId={0}, Name={1}", newId, Name);
             }

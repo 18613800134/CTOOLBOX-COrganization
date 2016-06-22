@@ -6,7 +6,6 @@ namespace COrganization.Model.Mixin
     public class COrganizationMixin
     {
         public long Id { get; set; }
-        public long UserId { get; set; }
         public string MainName_Name { get; set; }
         public long BranchCount { get; set; }
         public long UserCount { get; set; }
